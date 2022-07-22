@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-card
+      author: Vladislav
+      changes:
+        - createTable:
+            tableName: CARDS
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: serialnumber
+                  type: bigint
+              - column:
+                  name: type_card
+                  type: varchar(200)
+              - column:
+                  name: validity_date
+                  type: date
+              - column:
+                  name: department
+                  type: varchar(200)
+              - column:
+                  name: access
+                  type: varchar(20)
+              - column:
+                  name: OWNER_ID
+                  type: bigint
+                  constraints:
+                    foreignKeyName: OWNER_ID

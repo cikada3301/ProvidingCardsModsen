@@ -1,0 +1,3 @@
+--insert into Users (id, role, username, password, access) values (1, 'ADMIN', 'ADMIN777', '$2a$10$9KdorFBuQcY4mQ8xc7OiHO4KQ6GhTgpeZaZcdDFENUk0.Uf41Zm9q', 'ENABLED');
+--insert into Users (id, role, username, password, access) values (2, 'EMPLOYEE', 'Vanya123', '$2a$10$9KdorFBuQcY4mQ8xc7OiHO4KQ6GhTgpeZaZcdDFENUk0.Uf41Zm9q', 'ENABLED');
+----schema.sql  data.sql
